@@ -1,0 +1,7 @@
+num=list(map(int,input().split()))
+first=second=float('-inf')
+for nums in num:
+    if nums>first:
+        second=first
+        first=nums
+    
